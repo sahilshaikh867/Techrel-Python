@@ -49,3 +49,45 @@ print("Your remain amount is :", Remain)
 
 
 ```
+
+### Loops and Cond.
+
+```
+# age = int(input("Enter Your age : "))
+# has_id = True
+ 
+# if age >= 18 and has_id:
+#       print("Entry allowed")
+
+today = input("Enter today's day : ")
+workday = ["Monday","Tuesday","Thursday","Friday"]
+weekend = ["Saturday","Sunday"]
+holliday = ["wenesday"]
+
+def day():
+  
+  for i in workday:
+    if i == today:
+      print(f" Today is {today} This is your workday")
+    
+      
+  for i in weekend:
+    if i == today:
+      print("Today is weekend")
+      
+  for i in holiday:
+    if i == today:
+      print("Today is Holiday")
+      
+for i in holiday and weekend and workday:
+  if i != today:
+    print("check your input again")
+
+
+    
+# if is_weekend or is_holiday:
+#     print("No office")
+  
+# else:
+#   print("Go Regular to your work")
+```
