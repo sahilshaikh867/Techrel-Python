@@ -91,3 +91,32 @@ for i in holiday and weekend and workday:
 # else:
 #   print("Go Regular to your work")
 ```
+## For Loops in Funcions
+```
+def average(numbers):
+  Total = 0
+  for number in numbers:
+    Total += number
+    
+  return Total / len(numbers)
+numbers =[80,75,90,85]
+print(average(numbers))
+```
+----
+```
+
+def calculate_average(numbers):
+
+    total = 0
+
+    for number in numbers:
+        total += number
+
+    # len() gives number of elements
+    return total / len(numbers)
+
+
+marks = [80, 75, 90, 85]
+
+print(calculate_average(marks))
+```
